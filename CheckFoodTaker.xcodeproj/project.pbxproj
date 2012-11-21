@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517B204016501311008A0B15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B203F16501311008A0B15 /* UIKit.framework */; };
+		517B204216501311008A0B15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B204116501311008A0B15 /* Foundation.framework */; };
+		517B204416501311008A0B15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B204316501311008A0B15 /* CoreGraphics.framework */; };
+		517B204A16501311008A0B15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 517B204816501311008A0B15 /* InfoPlist.strings */; };
+		517B204C16501311008A0B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B204B16501311008A0B15 /* main.m */; };
+		517B205016501311008A0B15 /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B204F16501311008A0B15 /* CFAppDelegate.m */; };
+		517B205216501311008A0B15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 517B205116501311008A0B15 /* Default.png */; };
+		517B205416501311008A0B15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 517B205316501311008A0B15 /* Default@2x.png */; };
+		517B205616501311008A0B15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 517B205516501311008A0B15 /* Default-568h@2x.png */; };
+		517B205916501311008A0B15 /* CFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B205816501311008A0B15 /* CFMasterViewController.m */; };
+		517B205C16501311008A0B15 /* CFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B205B16501311008A0B15 /* CFDetailViewController.m */; };
+		517B205F16501311008A0B15 /* CFMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517B205D16501311008A0B15 /* CFMasterViewController.xib */; };
+		517B206216501311008A0B15 /* CFDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517B206016501311008A0B15 /* CFDetailViewController.xib */; };
+		517B206A16501311008A0B15 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B206916501311008A0B15 /* SenTestingKit.framework */; };
+		517B206B16501311008A0B15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B203F16501311008A0B15 /* UIKit.framework */; };
+		517B206C16501311008A0B15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B204116501311008A0B15 /* Foundation.framework */; };
+		517B207416501311008A0B15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 517B207216501311008A0B15 /* InfoPlist.strings */; };
+		517B207716501311008A0B15 /* CheckFoodTakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B207616501311008A0B15 /* CheckFoodTakerTests.m */; };
+		517B20831650135C008A0B15 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B20821650135C008A0B15 /* WindowsAzureMobileServices.framework */; };
+		517B208816501446008A0B15 /* CFClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B208716501446008A0B15 /* CFClient.m */; };
+		517B208C16504A5C008A0B15 /* CFProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B208B16504A5C008A0B15 /* CFProduct.m */; };
+		517B208F1650507A008A0B15 /* MSClient+CheckFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B208E1650507A008A0B15 /* MSClient+CheckFood.m */; };
+		517B20921650526F008A0B15 /* CFModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 517B20911650526F008A0B15 /* CFModelObject.m */; };
+		517B209416505581008A0B15 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B209316505581008A0B15 /* MapKit.framework */; };
+		517B20E616505AEB008A0B15 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B20E516505AEB008A0B15 /* CoreLocation.framework */; };
+		51CEA856165B1DED00D627D4 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B20821650135C008A0B15 /* WindowsAzureMobileServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		517B206D16501311008A0B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517B203216501311008A0B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517B203A16501311008A0B15;
+			remoteInfo = CheckFoodKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		517B203B16501311008A0B15 /* CheckFoodTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckFoodTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		517B203F16501311008A0B15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		517B204116501311008A0B15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		517B204316501311008A0B15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		517B204716501311008A0B15 /* CheckFoodTaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckFoodTaker-Info.plist"; sourceTree = "<group>"; };
+		517B204916501311008A0B15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		517B204B16501311008A0B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		517B204D16501311008A0B15 /* CheckFoodTaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckFoodTaker-Prefix.pch"; sourceTree = "<group>"; };
+		517B204E16501311008A0B15 /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		517B204F16501311008A0B15 /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		517B205116501311008A0B15 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		517B205316501311008A0B15 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		517B205516501311008A0B15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		517B205716501311008A0B15 /* CFMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFMasterViewController.h; sourceTree = "<group>"; };
+		517B205816501311008A0B15 /* CFMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFMasterViewController.m; sourceTree = "<group>"; };
+		517B205A16501311008A0B15 /* CFDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFDetailViewController.h; sourceTree = "<group>"; };
+		517B205B16501311008A0B15 /* CFDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFDetailViewController.m; sourceTree = "<group>"; };
+		517B205E16501311008A0B15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CFMasterViewController.xib; sourceTree = "<group>"; };
+		517B206116501311008A0B15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CFDetailViewController.xib; sourceTree = "<group>"; };
+		517B206816501311008A0B15 /* CheckFoodTakerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckFoodTakerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		517B206916501311008A0B15 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		517B207116501311008A0B15 /* CheckFoodTakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckFoodTakerTests-Info.plist"; sourceTree = "<group>"; };
+		517B207316501311008A0B15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		517B207516501311008A0B15 /* CheckFoodTakerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckFoodTakerTests.h; sourceTree = "<group>"; };
+		517B207616501311008A0B15 /* CheckFoodTakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckFoodTakerTests.m; sourceTree = "<group>"; };
+		517B20821650135C008A0B15 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		517B208616501446008A0B15 /* CFClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFClient.h; sourceTree = "<group>"; };
+		517B208716501446008A0B15 /* CFClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFClient.m; sourceTree = "<group>"; };
+		517B208A16504A5C008A0B15 /* CFProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFProduct.h; sourceTree = "<group>"; };
+		517B208B16504A5C008A0B15 /* CFProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFProduct.m; sourceTree = "<group>"; };
+		517B208D1650507A008A0B15 /* MSClient+CheckFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSClient+CheckFood.h"; sourceTree = "<group>"; };
+		517B208E1650507A008A0B15 /* MSClient+CheckFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSClient+CheckFood.m"; sourceTree = "<group>"; };
+		517B20901650526F008A0B15 /* CFModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFModelObject.h; sourceTree = "<group>"; };
+		517B20911650526F008A0B15 /* CFModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFModelObject.m; sourceTree = "<group>"; };
+		517B209316505581008A0B15 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		517B20E516505AEB008A0B15 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517B203816501311008A0B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517B20E616505AEB008A0B15 /* CoreLocation.framework in Frameworks */,
+				517B209416505581008A0B15 /* MapKit.framework in Frameworks */,
+				517B204016501311008A0B15 /* UIKit.framework in Frameworks */,
+				517B204216501311008A0B15 /* Foundation.framework in Frameworks */,
+				517B204416501311008A0B15 /* CoreGraphics.framework in Frameworks */,
+				517B20831650135C008A0B15 /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517B206416501311008A0B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517B206A16501311008A0B15 /* SenTestingKit.framework in Frameworks */,
+				517B206B16501311008A0B15 /* UIKit.framework in Frameworks */,
+				517B206C16501311008A0B15 /* Foundation.framework in Frameworks */,
+				51CEA856165B1DED00D627D4 /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517B203016501311008A0B15 = {
+			isa = PBXGroup;
+			children = (
+				517B20801650133A008A0B15 /* External */,
+				517B204516501311008A0B15 /* CheckFoodTaker */,
+				517B206F16501311008A0B15 /* CheckFoodTakerTests */,
+				517B203E16501311008A0B15 /* Frameworks */,
+				517B203C16501311008A0B15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517B203C16501311008A0B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517B203B16501311008A0B15 /* CheckFoodTaker.app */,
+				517B206816501311008A0B15 /* CheckFoodTakerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517B203E16501311008A0B15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				517B20E516505AEB008A0B15 /* CoreLocation.framework */,
+				517B209316505581008A0B15 /* MapKit.framework */,
+				517B203F16501311008A0B15 /* UIKit.framework */,
+				517B204116501311008A0B15 /* Foundation.framework */,
+				517B204316501311008A0B15 /* CoreGraphics.framework */,
+				517B206916501311008A0B15 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		517B204516501311008A0B15 /* CheckFoodTaker */ = {
+			isa = PBXGroup;
+			children = (
+				517B204E16501311008A0B15 /* CFAppDelegate.h */,
+				517B204F16501311008A0B15 /* CFAppDelegate.m */,
+				517B208516501428008A0B15 /* Services */,
+				517B208916504A3E008A0B15 /* Model */,
+				517B208416501415008A0B15 /* Controller */,
+				517B204616501311008A0B15 /* Supporting Files */,
+			);
+			path = CheckFoodTaker;
+			sourceTree = "<group>";
+		};
+		517B204616501311008A0B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517B204716501311008A0B15 /* CheckFoodTaker-Info.plist */,
+				517B204816501311008A0B15 /* InfoPlist.strings */,
+				517B204B16501311008A0B15 /* main.m */,
+				517B204D16501311008A0B15 /* CheckFoodTaker-Prefix.pch */,
+				517B205116501311008A0B15 /* Default.png */,
+				517B205316501311008A0B15 /* Default@2x.png */,
+				517B205516501311008A0B15 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517B206F16501311008A0B15 /* CheckFoodTakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				517B207516501311008A0B15 /* CheckFoodTakerTests.h */,
+				517B207616501311008A0B15 /* CheckFoodTakerTests.m */,
+				517B207016501311008A0B15 /* Supporting Files */,
+			);
+			path = CheckFoodTakerTests;
+			sourceTree = "<group>";
+		};
+		517B207016501311008A0B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517B207116501311008A0B15 /* CheckFoodTakerTests-Info.plist */,
+				517B207216501311008A0B15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517B20801650133A008A0B15 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				517B20811650134F008A0B15 /* Azure */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		517B20811650134F008A0B15 /* Azure */ = {
+			isa = PBXGroup;
+			children = (
+				517B20821650135C008A0B15 /* WindowsAzureMobileServices.framework */,
+			);
+			name = Azure;
+			sourceTree = "<group>";
+		};
+		517B208416501415008A0B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				517B205716501311008A0B15 /* CFMasterViewController.h */,
+				517B205816501311008A0B15 /* CFMasterViewController.m */,
+				517B205D16501311008A0B15 /* CFMasterViewController.xib */,
+				517B205A16501311008A0B15 /* CFDetailViewController.h */,
+				517B205B16501311008A0B15 /* CFDetailViewController.m */,
+				517B206016501311008A0B15 /* CFDetailViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		517B208516501428008A0B15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				517B208616501446008A0B15 /* CFClient.h */,
+				517B208716501446008A0B15 /* CFClient.m */,
+				517B208D1650507A008A0B15 /* MSClient+CheckFood.h */,
+				517B208E1650507A008A0B15 /* MSClient+CheckFood.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		517B208916504A3E008A0B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				517B20901650526F008A0B15 /* CFModelObject.h */,
+				517B20911650526F008A0B15 /* CFModelObject.m */,
+				517B208A16504A5C008A0B15 /* CFProduct.h */,
+				517B208B16504A5C008A0B15 /* CFProduct.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517B203A16501311008A0B15 /* CheckFoodTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517B207A16501311008A0B15 /* Build configuration list for PBXNativeTarget "CheckFoodTaker" */;
+			buildPhases = (
+				517B203716501311008A0B15 /* Sources */,
+				517B203816501311008A0B15 /* Frameworks */,
+				517B203916501311008A0B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckFoodTaker;
+			productName = CheckFoodKeeper;
+			productReference = 517B203B16501311008A0B15 /* CheckFoodTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		517B206716501311008A0B15 /* CheckFoodTakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517B207D16501311008A0B15 /* Build configuration list for PBXNativeTarget "CheckFoodTakerTests" */;
+			buildPhases = (
+				517B206316501311008A0B15 /* Sources */,
+				517B206416501311008A0B15 /* Frameworks */,
+				517B206516501311008A0B15 /* Resources */,
+				517B206616501311008A0B15 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517B206E16501311008A0B15 /* PBXTargetDependency */,
+			);
+			name = CheckFoodTakerTests;
+			productName = CheckFoodKeeperTests;
+			productReference = 517B206816501311008A0B15 /* CheckFoodTakerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517B203216501311008A0B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = LiveCode;
+			};
+			buildConfigurationList = 517B203516501311008A0B15 /* Build configuration list for PBXProject "CheckFoodTaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 517B203016501311008A0B15;
+			productRefGroup = 517B203C16501311008A0B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517B203A16501311008A0B15 /* CheckFoodTaker */,
+				517B206716501311008A0B15 /* CheckFoodTakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517B203916501311008A0B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517B204A16501311008A0B15 /* InfoPlist.strings in Resources */,
+				517B205216501311008A0B15 /* Default.png in Resources */,
+				517B205416501311008A0B15 /* Default@2x.png in Resources */,
+				517B205616501311008A0B15 /* Default-568h@2x.png in Resources */,
+				517B205F16501311008A0B15 /* CFMasterViewController.xib in Resources */,
+				517B206216501311008A0B15 /* CFDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517B206516501311008A0B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517B207416501311008A0B15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		517B206616501311008A0B15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517B203716501311008A0B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517B204C16501311008A0B15 /* main.m in Sources */,
+				517B205016501311008A0B15 /* CFAppDelegate.m in Sources */,
+				517B205916501311008A0B15 /* CFMasterViewController.m in Sources */,
+				517B205C16501311008A0B15 /* CFDetailViewController.m in Sources */,
+				517B208816501446008A0B15 /* CFClient.m in Sources */,
+				517B208C16504A5C008A0B15 /* CFProduct.m in Sources */,
+				517B208F1650507A008A0B15 /* MSClient+CheckFood.m in Sources */,
+				517B20921650526F008A0B15 /* CFModelObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517B206316501311008A0B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517B207716501311008A0B15 /* CheckFoodTakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		517B206E16501311008A0B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517B203A16501311008A0B15 /* CheckFoodTaker */;
+			targetProxy = 517B206D16501311008A0B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		517B204816501311008A0B15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517B204916501311008A0B15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		517B205D16501311008A0B15 /* CFMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517B205E16501311008A0B15 /* en */,
+			);
+			name = CFMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		517B206016501311008A0B15 /* CFDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517B206116501311008A0B15 /* en */,
+			);
+			name = CFDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		517B207216501311008A0B15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517B207316501311008A0B15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517B207816501311008A0B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		517B207916501311008A0B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517B207B16501311008A0B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckFoodTaker/CheckFoodTaker-Prefix.pch";
+				INFOPLIST_FILE = "CheckFoodTaker/CheckFoodTaker-Info.plist";
+				PRODUCT_NAME = CheckFoodTaker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		517B207C16501311008A0B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckFoodTaker/CheckFoodTaker-Prefix.pch";
+				INFOPLIST_FILE = "CheckFoodTaker/CheckFoodTaker-Info.plist";
+				PRODUCT_NAME = CheckFoodTaker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		517B207E16501311008A0B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckFoodTaker.app/CheckFoodTaker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckFoodTaker/CheckFoodTaker-Prefix.pch";
+				INFOPLIST_FILE = "CheckFoodTakerTests/CheckFoodTakerTests-Info.plist";
+				PRODUCT_NAME = CheckFoodTakerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		517B207F16501311008A0B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CheckFoodTaker.app/CheckFoodTaker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/External\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckFoodTaker/CheckFoodTaker-Prefix.pch";
+				INFOPLIST_FILE = "CheckFoodTakerTests/CheckFoodTakerTests-Info.plist";
+				PRODUCT_NAME = CheckFoodTakerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517B203516501311008A0B15 /* Build configuration list for PBXProject "CheckFoodTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517B207816501311008A0B15 /* Debug */,
+				517B207916501311008A0B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517B207A16501311008A0B15 /* Build configuration list for PBXNativeTarget "CheckFoodTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517B207B16501311008A0B15 /* Debug */,
+				517B207C16501311008A0B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517B207D16501311008A0B15 /* Build configuration list for PBXNativeTarget "CheckFoodTakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517B207E16501311008A0B15 /* Debug */,
+				517B207F16501311008A0B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517B203216501311008A0B15 /* Project object */;
+}
